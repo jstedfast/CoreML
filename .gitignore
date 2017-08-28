@@ -1,0 +1,7 @@
+*project.lock.json
+*.userprefs
+*.user
+*.suo
+*~
+obj
+bin
