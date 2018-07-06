@@ -35,7 +35,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ArrayFeatureExtractor.cs" />
+    <Compile Include="BayesianProbitRegressor.cs" />
     <Compile Include="CategoricalMapping.cs" />
+    <Compile Include="CustomModel.cs" />
     <Compile Include="DataStructures.cs" />
     <Compile Include="DictVectorizer.cs" />
     <Compile Include="FeatureTypes.cs" />
@@ -46,11 +48,15 @@
     <Compile Include="Imputer.cs" />
     <Compile Include="Model.cs" />
     <Compile Include="NeuralNetwork.cs" />
+    <Compile Include="NonMaximumSuppression.cs" />
     <Compile Include="Normalizer.cs" />
     <Compile Include="OneHotEncoder.cs" />
     <Compile Include="Scaler.cs" />
     <Compile Include="SVM.cs" />
+    <Compile Include="TextClassifier.cs" />
     <Compile Include="TreeEnsemble.cs" />
+    <Compile Include="VisionFeaturePrint.cs" />
+    <Compile Include="WordTagger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
