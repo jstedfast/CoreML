@@ -1,0 +1,3 @@
+[submodule "external/coremltools"]
+	path = external/coremltools
+	url = git@github.com:apple/coremltools.git
